@@ -4,6 +4,7 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+pylint = "*"
 
 [packages]
 flask = "*"
@@ -15,7 +16,7 @@ pytest-testdox = "*"
 pytest-ordering = "*"
 
 [requires]
-python_version = "3.8.2"
+python_version = "3.8.3"
 
 [scripts]
 start="python src/app.py"
